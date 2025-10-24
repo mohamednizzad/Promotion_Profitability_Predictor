@@ -112,11 +112,6 @@ The confusion matrix below visualizes how the model performed on the test set, h
 
 ---
 
-## 🧩 Repository Structure
-
-
----
-
 ## 🏁 Key Takeaway
 
 > “By prioritizing **precision over recall**, this model shifts marketing from guesswork to grounded, data-backed decision-making — enabling UAE FMCG brands to launch only those promotions that truly pay off.”

@@ -67,6 +67,14 @@ This model empowers **FMCG marketing managers** with **data-driven decision supp
 - **Negative Impact:**  
   - `Simple Discount (15%)` → strong negative coefficient → *avoid frequent use.*
 
+<p align="center">
+  <img src="visuals/coefficient_factors.png" alt="Feature Importance Coefficients" width="600">
+</p>
+
+**Figure 1:** Feature importance coefficients showing the relative influence of different promotion types and store formats.
+
+---
+
 ### 🧾 Business Impact  
 - **Risk Mitigation:** Prevents unprofitable campaign launches.  
 - **Budget Efficiency:** Ensures marketing spend drives measurable ROI.  
@@ -82,6 +90,16 @@ This model empowers **FMCG marketing managers** with **data-driven decision supp
 | **Recall** | % of all profitable promotions correctly identified | Secondary |
 | **F1-Score** | Harmonic mean of Precision & Recall | Balanced metric |
 | **Confusion Matrix** | Visual diagnostic tool | Evaluate trade-offs |
+
+### 📉 Confusion Matrix
+
+The confusion matrix below visualizes how the model performed on the test set, highlighting the trade-off between Precision and Recall.
+
+<p align="center">
+  <img src="visuals/confusion_matrix.png" alt="Confusion Matrix" width="600">
+</p>
+
+**Figure 2:** Confusion Matrix showing True Positives, False Positives, True Negatives, and False Negatives.
 
 ---
 
